@@ -1,0 +1,41 @@
+{
+    "name"          : "t411-api",
+    "description"   : "Client pour l'API t411.me",
+    "licence"       : "AGPL v3",
+    "tags": [
+        "http",
+        "simple",
+        "util",
+        "utility"
+    ],
+    "version"       : "0.0.1-dev",
+    "author": {
+        "name"      : "lildadou",
+        "email"     : "lildadou@gmail.com"
+    },
+
+    "homepage"      : "https://github.com/lildadou/t411-api",
+    "repository": {
+        "type"      : "git",
+        "url"       : "http://github.com/lildadou/t411-api.git"
+    },
+    "bugs": {
+        "url"       : "http://github.com/lildadou/t411-api/issues"
+    },
+    "engines": [
+        "node >= 0.8.0"
+    ],
+    "main"          : "index.js",
+    "dependencies": {
+        "qs"        : "~0.6.0",
+        "async"     : "~0.2.9",
+        "request"   : "~2.27.0",
+        "winston"   : "~0.7.0"
+    },
+
+
+    "scripts": {
+        "test": "node tests/run.js"
+    },
+    "readmeFilename": "README.md"
+}
